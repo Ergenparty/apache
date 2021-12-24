@@ -1,0 +1,190 @@
+*{
+  
+  font-family: 'Montserrat', sans-serif;
+
+    
+  }
+  body{
+    background-color: #2A3045;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  
+  a:visited {
+    color: white;
+  }
+  a:link{
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* footer */
+  
+  footer{
+    position: static;
+    bottom: 0; 
+  }
+  
+  .footer-distributed{
+    background-color: #2D2A2A;
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px;
+    padding: 25px 50px 60px 20px;
+  }
+  
+  #pfoot{
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  /* footer and header mobile response */
+  
+  @media screen and (max-width: 880px) {
+  
+  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          text-align: center;
+  }
+  .footer-distributed .footer-center i{
+          margin-left: 0;
+  }
+  
+  }
+  
+  
+  
+  #img1{
+    position: relative;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  .navbar {
+      
+    position: static;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2A2A;
+    color: white;
+  }
+  
+  .brand-title {
+    font-size: 1.3rem;
+    margin: .5rem;
+  }
+  
+  .navbar-links {
+    height: 100%;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-links li:hover {
+    background-color: #555;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .toggle-button {
+        display: flex;
+    }
+  
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+  
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+  
+    .navbar-links ul li {
+        text-align: center;
+    }
+  
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+  
+    .navbar-links.active {
+        display: flex;
+    }
+  }
+  
+ #img4 img{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+  }
+  #tg{
+    position: absolute; 
+    right: 65%;
+  
+  }
+  
+  
+  #tp{
+    position: absolute; 
+    right: 35%;
+  }
+  
+  
+  #wp{
+    position: absolute; 
+    right: 50%;
+  }
+
+  #vojdc img{
+    height: 100px;
+    width: 100px;  
+    object-fit: cover;
+   
+}
+
+
